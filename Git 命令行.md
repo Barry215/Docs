@@ -8,23 +8,23 @@ Note Name: Git 学习笔记 + 流程规范 + 常见问题解决方案
 
 [Git Home](https://git-scm.com/)
 
-![](/home/xsk/Pictures/201610091475957006.png)
+![](./IMG/201610091475957006.png)
 
 [Learn Git with bitbucket Cloud](https://www.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud)
 
-![](/home/xsk/Pictures/201610091475956731.png)
+![](./IMG/201610091475956731.png)
 
 
 
 [A Successful Git branching model](http://nvie.com/posts/a-successful-git-branching-model/)
 
-![](/home/xsk/Pictures/201610091475956772.png)
+![](./IMG/201610091475956772.png)
 
 
 
 [廖雪峰-Git教程](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)
 
-![](/home/xsk/Pictures/201610091475957106.png)
+![](./IMG/201610091475957106.png)
 
 
 
@@ -43,7 +43,7 @@ Download
 
 ## Git本地仓库
 
-![](/home/xsk/Pictures/53766254.jpg)
+![](./IMG/53766254.jpg)
 
 
 
@@ -55,7 +55,7 @@ Download
 
 
 
-![](/home/xsk/Pictures/201610091475992563.png)
+![](./IMG/201610091475992563.png)
 
 
 
@@ -85,7 +85,7 @@ Feature branches
 
 .git 目录结构
 
-![.git 目录结构](/home/xsk/Pictures/201610091475946159.png)
+![.git 目录结构](./IMG/201610091475946159.png)
 
 查看git工作区的动态
 
@@ -93,7 +93,7 @@ Feature branches
 git status
 ```
 
-![](/home/xsk/Pictures/201610091475946656.png)
+![](./IMG/201610091475946656.png)
 
 查看不同
 
@@ -101,7 +101,7 @@ git status
 git diff + filename
 ```
 
-![![img](file:///home/xsk/Pictures/201610091475946616.png?lastModify=1475991681)](/home/xsk/Pictures/201610091475946616.png)
+![![img](file://./IMG/201610091475946616.png?lastModify=1475991681)](./IMG/201610091475946616.png)
 
 放弃未add的修改 回退单个文件
 
@@ -111,7 +111,7 @@ git checkout -- + filename
 
 
 
-![](/home/xsk/Pictures/201610091475946750.png)
+![](./IMG/201610091475946750.png)
 
 
 
@@ -121,7 +121,7 @@ git checkout -- + filename
 git log
 ```
 
-![](/home/xsk/Pictures/201610091475947313.png)
+![](./IMG/201610091475947313.png)
 
 
 
@@ -141,7 +141,7 @@ SHA1 - > ID
 git reset --hard HEAD^
 ```
 
-![](/home/xsk/Pictures/201610091475947631.png)
+![](./IMG/201610091475947631.png)
 
 
 
@@ -153,7 +153,7 @@ git reset --hard + ID(部分即可)
 
 
 
-![](/home/xsk/Pictures/201610091475947911.png)
+![](./IMG/201610091475947911.png)
 
 查看COMMIT/RESET的历史指令及其对应版本
 
@@ -161,7 +161,7 @@ git reset --hard + ID(部分即可)
 git reflog
 ```
 
-![](/home/xsk/Pictures/201610091475947987.png)
+![](./IMG/201610091475947987.png)
 
 ## 工作区 和 暂存区
 
@@ -197,7 +197,7 @@ git diff HEAD -- readme.txt
 
 
 
-![](/home/xsk/Pictures/201610091475948752.png)
+![](./IMG/201610091475948752.png)
 
 ​
 
@@ -216,19 +216,19 @@ git reset HEAD~2
 
 
 
-![](/home/xsk/Pictures/201610091475993580.png)
+![](./IMG/201610091475993580.png)
 
 After reset
 
-![](/home/xsk/Pictures/201610091475993660.png)
+![](./IMG/201610091475993660.png)
 
 模式
 
-![](/home/xsk/Pictures/201610091475994270.png)
+![](./IMG/201610091475994270.png)
 
 #### 文档操作
 
-![](/home/xsk/Pictures/1199906484.jpg)
+![](./IMG/1199906484.jpg)
 
 ### Reverse
 
@@ -243,13 +243,13 @@ git reverse HEAD~2
 
 Before
 
-![](/home/xsk/Pictures/201610091475994468.png)
+![](./IMG/201610091475994468.png)
 
 
 
 After
 
-![](/home/xsk/Pictures/201610091475994570.png)
+![](./IMG/201610091475994570.png)
 
 
 
@@ -259,7 +259,7 @@ After
 
 
 
-![](/home/xsk/Pictures/791838225.jpg)
+![](./IMG/791838225.jpg)
 
 #### 文档层面
 
@@ -271,21 +271,21 @@ git checkout HEAD~2 foo.py
 
 
 
-![](/home/xsk/Pictures/201610091475994823.png)
+![](./IMG/201610091475994823.png)
 
 
 
 ### Summary
 
-![](/home/xsk/Pictures/201610091475994402.png)
+![](./IMG/201610091475994402.png)
 
 
 
-![](/home/xsk/Pictures/201610091475993332.png)
+![](./IMG/201610091475993332.png)
 
 
 
-![](/home/xsk/Pictures/201610091475993389.png)
+![](./IMG/201610091475993389.png)
 
 
 
@@ -353,7 +353,7 @@ git checkout dev
 git checkout -b dev
 ```
 
-![](/home/xsk/Pictures/201610091475951650.png)
+![](./IMG/201610091475951650.png)
 
 
 
@@ -363,7 +363,7 @@ git checkout -b dev
 git branch
 ```
 
-![](/home/xsk/Pictures/201610091475951787.png)
+![](./IMG/201610091475951787.png)
 
 
 
@@ -379,7 +379,7 @@ git commit -a -m "MSG.."
 
 
 
-![](/home/xsk/Pictures/201610091475951898.png)
+![](./IMG/201610091475951898.png)
 
 
 
@@ -397,7 +397,7 @@ git merge dev
 
 好了 我们合并成功后,删除dev分支
 
-![](/home/xsk/Pictures/201610091475952473.png)
+![](./IMG/201610091475952473.png)
 
 因为创建、合并和删除分支非常快，所以Git鼓励你使用分支完成某个任务，合并后再删掉分支，这和直接在`master`分支上工作效果是一样的，但过程更安全。
 
@@ -421,11 +421,11 @@ Git分支十分强大，在团队开发中应该充分应用。
 
 或者又做了哪些改动...
 
-![](/home/xsk/Pictures/201610091475952094.png)
+![](./IMG/201610091475952094.png)
 
 手动修改冲突 ,重新提交
 
-![](/home/xsk/Pictures/201610091475952379.png) 
+![](./IMG/201610091475952379.png) 
 
 
 
@@ -437,7 +437,7 @@ Git分支十分强大，在团队开发中应该充分应用。
 git log --graph --pretty=oneline --abbrev-commit
 ```
 
-![](/home/xsk/Pictures/201610091475953053.png)
+![](./IMG/201610091475953053.png)
 
 ## BUG分支
 
@@ -477,11 +477,11 @@ http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b0
 
   ​
 
-  ![](/home/xsk/Pictures/201610091475954437.png)
+  ![](./IMG/201610091475954437.png)
 
 ## 远程分支推送
 
-![](/home/xsk/Pictures/201610091475955101.png)
+![](./IMG/201610091475955101.png)
 
 ```
 xsk@tl:~/ProjLearn/React/ReactWithWebpack$ cat < README.md 
@@ -512,7 +512,7 @@ Hi,I am Socrion.
 git push
 ```
 
-![](/home/xsk/Pictures/201610091475955362.png)
+![](./IMG/201610091475955362.png)
 
 为啥还是提示有冲突呢?
 
@@ -528,7 +528,7 @@ git push
 
 提交成功.
 
-![](/home/xsk/Pictures/201610091475955605.png)
+![](./IMG/201610091475955605.png)
 
 
 
@@ -572,7 +572,7 @@ git checkout -b dev
 git branch --set-upstream-to=origin/dev dev
 ```
 
-![](/home/xsk/Pictures/201610091475974584.png)
+![](./IMG/201610091475974584.png)
 
 
 
@@ -604,7 +604,7 @@ git branch --set-upstream-to=origin/dev dev
    ```
    对比看哪里存在冲突
 
-   ![](/home/xsk/Pictures/201610091475973705.png)
+   ![](./IMG/201610091475973705.png)
 
 ####5. 合并分支
 ```
@@ -619,7 +619,7 @@ Merge made by the 'recursive' strategy.
 > **recursive strategy** merge时可以指定合并策略的
 > -S -X [TODO]
 
-![](/home/xsk/Pictures/201610091475973450.png)
+![](./IMG/201610091475973450.png)
 
 ####6. 再次运行测试
 
@@ -735,7 +735,7 @@ M	README.md
 
 现在我们查看下Git Status
 
-![](/home/xsk/Pictures/201610091475982309.png)
+![](./IMG/201610091475982309.png)
 
 [Question] reset修改的啥呢 ?
 
@@ -806,7 +806,7 @@ git checkout -- readme.txt
 
 
 
-![](/home/xsk/Pictures/201610091475949762.png)
+![](./IMG/201610091475949762.png)
 
 1. 天哪 你都commit了,别慌有哥在
 
